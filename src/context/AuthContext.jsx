@@ -18,7 +18,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/login",
+        "https://crud-operations-8tkg.onrender.com/api/auth/login",
         {
           method: "POST",
           headers: {
@@ -64,7 +64,7 @@ export const AuthProvider = ({ children }) => {
   const signup = async (payload) => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/signup",
+        "https://crud-operations-8tkg.onrender.com/api/auth/signup",
         {
           method: "POST",
           headers: {

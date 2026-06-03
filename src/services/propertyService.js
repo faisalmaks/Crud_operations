@@ -1,5 +1,5 @@
 const BASE_URL =
-  "http://localhost:5000/api/properties";
+  "https://crud-operations-8tkg.onrender.com/api/properties";
 
 const getAuthHeaders = () => {
   const token = localStorage.getItem("token");
