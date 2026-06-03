@@ -19,7 +19,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({
     message: "Real Estate Backend API is running",
-    apiBaseUrl: `http://localhost:${PORT}/api`,
+    apiBaseUrl: `https://crud-operations-8tkg.onrender.com/api`,
   });
 });
 
